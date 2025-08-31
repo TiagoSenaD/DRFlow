@@ -1,9 +1,9 @@
 services:
-  crflow-app:
+  drflow-app:
     build: .
     # ports:
     #   - "3000:3000"
-    container_name: crflow_dev
+    container_name: drflow_dev
     volumes:
       - .:/usr/src/app/src
       - /usr/src/app/node_modules
